@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1>Sign up form</h1>
+    <form action="#" onsubmit="return validation() ">
+<div id="name">
+   Name:<input type="text" id="user" class="input"><br><span id="username"></span>
+</div>
+<div id="phone-n">
+    Phone:<input type="text" id="phone" class="input"><br><span id="phonenumber"></span>
+ </div>
+ <div id="email-m">
+    Email:<input type="email" id="email" class="input"><br><span id="enteremail"></span>
+ </div>
+ <div id="password-p">
+    Password:<input type="password" id="password"  class="input1"><br><span id="enterpassword"></span>
+ </div>
+ 
+<input type="submit" value="submit" id="btn">
+
+
+    </form>
+    <div id="main">
+    <table>
+         <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Password</th>
+            </tr>
+        </thead> 
+        <tbody>
+            <tr id="name_row">
+            </tr>
+        </tbody>
+        
+    </table>
+    </div>
+    <script src="./App.js"></script>
+</body>
+</html>
